@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Enes Teker — jadeIT</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+ 
+ <script src="https://cdn.tailwindcss.com"></script>
+ <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            green:  { DEFAULT: '#1B3A2D', light: '#254D3C', dark: '#0F2219' },
+            petrol: { DEFAULT: '#0D2137', light: '#162D4A', dark: '#071525' },
+            gold:   { DEFAULT: '#C9A84C', light: '#DFC278', dark: '#A8862E' },
+            cream:  { DEFAULT: '#F0EDE6' },
+            muted:  { DEFAULT: '#8A9BA8' },
+             },
+          fontFamily: {
+            display: ['Playfair Display', 'serif'],
+            body:    ['DM Sans', 'sans-serif'],
+            mono:    ['DM Mono', 'monospace'],
+          },
+        }
+      }
+    }
+  </script>
+  
+  <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+<body>
+<nav id="navbar">
+ <a href="#hero" class="logo">jadeIT</a>
+ <div class="nav-links">
+    <a href="#about">Hakkımda</a>
+    <a href="#skills">Yetenekler</a>
+    <a href="#projects">Projeler</a>
+    <a href="#contact">İletişim</a>   
+ </div>
+</nav>
+<section id="hero">
+    <p class="section-label">Python Backend Developer</p>
+    <h1 class="hero-name">Enes<br/>Teker</h1>
+    <div class="hero-divider"></div>
+    <p class="hero-desc">Temiz kod, modüler mimari ve çalışan sistemler inşa ediyorum.</p>
+    <div class="btn-group">
+      <a href="#projects" class="btn-primary">Projeleri Gör</a>
+      <a href="#contact"  class="btn-secondary">İletişime Geç</a>
+    </div>
+  </section>
+  
+<section id="about">
+    <div class="gold-line"></div>
+    <p class="section-label">01 — About</p>
+    <div class="about-grid">
+      <h2 class="section-title">Kod yazmak<br/>bir zanaat.</h2>
+      <div>
+        <p class="body-text">Python ve FastAPI ile backend sistemleri geliştiriyorum. Her projeyi modüler, okunabilir ve genişletilebilir tasarlıyorum.</p>
+        <p class="body-text mt-4">REST API mimarisi, veritabanı tasarımı ve clean code prensiplerine odaklanıyorum.</p>
+        <p class="location-tag">Kocaeli, Türkiye </p>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="gold-line"></div>
+    <p class="section-label">02 — Skills</p>
+    <h2 class="section-title">Teknoloji Yığını</h2>
+    <div id="skills-grid"></div>
+  </section>
+   <section id="projects">
+    <div class="gold-line"></div>
+    <p class="section-label">03 — Projects</p>
+    <h2 class="section-title">Aktif Projeler</h2>
+    <div id="projects-grid"></div>
+  </section>
+<section id="contact">
+    <div class="gold-line"></div>
+    <p class="section-label">04 — Contact</p>
+    <h2 class="section-title">Birlikte çalışalım.</h2>
+    <div class="contact-grid">
+      <div>
+        <p class="body-text">Birlikte çalışmak için ulaşın.</p>
+        <a href="mailto:mail@gmail.com" class="btn-primary mt-6 inline-block">E-posta Gönder ↗</a>
+      </div>
+      <div id="contact-links"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026  — jadeIT · Architecting high-performance systems with logic and precision.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
