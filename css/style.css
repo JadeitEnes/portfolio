@@ -380,6 +380,71 @@ a.contact-value:hover {
 }
 
 
+@media (max-width: 768px) {
+
+  #navbar {
+    padding: 14px 24px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .logo {
+    font-size: 16px;
+  }
+
+  .nav-links {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 8px;
+    letter-spacing: 0.1em;
+  }
+
+  section {
+    padding: 80px 24px;
+  }
+
+  #hero {
+    padding: 120px 24px 60px 24px;
+  }
+
+  .hero-name {
+    font-size: 56px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  #skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-primary, .btn-secondary {
+    text-align: center;
+  }
+  
+}
+
 footer {
   text-align: center;
   padding: 28px 64px;

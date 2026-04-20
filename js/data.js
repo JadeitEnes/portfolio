@@ -34,7 +34,8 @@ window.PORTFOLIO_DATA = {
   contact: {
     email: "mail@gmail.com",
     github: "github.com/JadeitEnes",
-    linkedin: "linkedin.com/in/KULLANICI_ADIN",
+    linkedin: "linkedin.com/in/enes-teker-4143-jadeit",
+    kariyer: "www.kariyer.net/ozgecmis/etf2ufo9z5",
     location: "Kocaeli, Türkiye"
   }
 

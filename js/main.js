@@ -46,6 +46,11 @@ function renderContact() {
       </div>
       <div class="divider"></div>
       <div class="contact-item">
+        <p class="contact-label">Kariyer.net</p>
+        <a href="https://${c.kariyer}" target="_blank" class="contact-value">${c.kariyer}</a>
+      </div>
+       <div class="divider"></div>
+      <div class="contact-item">
         <p class="contact-label">LinkedIn</p>
         <a href="https://${c.linkedin}" target="_blank" class="contact-value">${c.linkedin}</a>
       </div>
