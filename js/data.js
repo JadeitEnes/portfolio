@@ -21,12 +21,12 @@ window.PORTFOLIO_DATA = {
       tech: "Python · FastAPI · Pydantic",
       description: "Donanım bileşenlerini analiz eden ve 100 üzerinden performans skoru hesaplayan REST API. Modüler mimari, Pydantic şema doğrulama, otomatik Swagger dökümantasyonu.Geliştirilmeye devam ediyor.",
       github: "https://github.com/JadeitEnes/gear-optimizer-api",
-      live: "https://gear-optimizer-api.onrender.com/docs"
+      live: "https://gear-optimizer-api.onrender.com/ui"
     },
     {
       title: "...",
       tech: "Coming Soon",
-      description: "İkinci portfolyo projesi geliştirme aşamasında.",
+      description: "",
       github: "",
       live: ""
     }
