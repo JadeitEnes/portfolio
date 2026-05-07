@@ -41,8 +41,8 @@ Full-stack yeteneklerimi ve projelerimi sergilediğim, minimalist ve modern tasa
 
 ### 📫 İletişim & Bağlantılar
 - **Web:** [jadeitenes.github.io/portfolio](https://jadeitenes.github.io/portfolio/)
-- **LinkedIn:** [linkedin.com/in/enes-teker](https://www.linkedin.com/in/enes-teker/) — *(Kendi linkinle güncelle)*
-- **E-posta:** [enes.teker@email.com](mailto:enes.teker@email.com) — *(Kendi mailinle güncelle)*
+- **LinkedIn:** [linkedin.com/in/enes-teker](https://www.linkedin.com/in/enes-teker-4143-jadeit/) 
+- **E-posta:** [enes.teker@email.com](mailto:enestkr.41@hotmail.com) 
 
 ---
 *© 2026 — Architecting high-performance systems with logic and precision.*
