@@ -20,7 +20,7 @@ Yazılım geliştirmeyi sadece kod yazmak değil, sürdürülebilir ve ölçekle
 | **Backend** | Python (FastAPI, Flask), C++ (High Performance), Node.js |
 | **Frontend** | HTML5, CSS3, JavaScript, React, Tailwind CSS |
 | **Sistem & Veri** | Shared Memory (SHM), PostgreSQL, Redis, RESTful APIs |
-| **Araçlar** | Git, Docker, Linux (Ubuntu), Ninja, CMake |
+| **Araçlar** | Git, Docker, Ninja, CMake |
 
 ---
 
